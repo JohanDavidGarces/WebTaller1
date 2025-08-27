@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family:sans-serif;
+    line-height: 1.5rem;
+    background-color: #fff;
+    color:#333;
+}
+
+.header__title{
+    font-size: 1.5rem;
+}
+
+.header__nav{
+    display:flex;
+    align-content:flex-end;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 3rem;
+    background-color: white;
+    box-shadow: 50px;
+    padding: 1rem 2rem;   
+    height: 120px;
+}
+.ImagenBannerPrincipal{
+    /* margin-top: -200px; */
+    transform: translateY(0px);
+    overflow: hidden;
+    /* border-radius: 50%; */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.TextoImagenBannerPrincipal{
+    display:list-item;
+    align-content: center;
+    transform: translateY(-20px);
+    
+}
+
+.header__list{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: flex-end;
+}
+.header__link{
+    display: flex;
+    align-content: flex-start;
+    transform: translateY(-50%); 
+    color:black;
+    text-decoration: none;
+    font-weight: 50;
+    transition: color0.3s;
+    box-shadow: 2px;
+}
+.header__link:hover{
+    color: rgb(91, 168, 91);
+    
+}
+.header{
+    background-color: rgb(243, 243, 243);
+    background-size:100%;
+    font-size: 120%;
+    color: white;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 20rem;
+    
+}
+.TextoImagenBannerPrincipalXtra{
+    font-size: 20PX;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header__text{
+    
+    margin: 10%;    
+}
+.header__author {
+    margin-bottom: 25px; 
+}
+.header__collection{
+    
+    margin-bottom: 25px; 
+    font-size: 190%;
+}
+.header__book-title{
+    font-size: 90%;
+    margin-bottom: 25px; 
+}
+.header__btn{
+    background-color:black;
+    color: #fff;
+    width: 200px; 
+    height: 150px; 
+    
+}
+.header__text{
+    max-width: 50%;
+}
+.header__image{
+    /**/
+    padding: 0.75rem 0.5rem;
+    display: flex;
+    justify-content:end;
+}
+.FreeBottonBannerPrincipal{
+    background: linear-gradient(to right,rgb(94, 219, 209), rgb(0, 156, 130));
+    color: white;
+    text-decoration: none;
+    transform: translateY(-30%);
+    width: 200px;
+    border-style: hidden;
+    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-sizing: border-box;
+    
+    padding: 1rem;
+    border-radius: 25%;
+    text-align: center;
+}
+.FreeBottonBannerPrincipal:hover{
+    background-color: #04AA6D; 
+    text-align: center;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.FreeBottonBannerPrincipal:click{
+    background-color: purple;
+    color: greenyellow;
+}
+.header__Cards{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f6f6f6;
+}
+
+
+.cards__OurServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:start;
+    background: linear-gradient(to right, rgb(94, 219, 209), rgb(0, 156, 130));
+    color: #fff;
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+    padding: 1rem;
+    transform: translateY(30%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.cards__OurServices__Title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem; 
+    transform: translateX(-15%);
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cards__OurServices__Content {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.2;
+    transform: translateX(7%);
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cards__SocialMarketing__MarketingImagen{
+    margin: 10px;
+}
+.cards__SocialMarketing {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  text-align:start;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 300px;
+      transform: translateY(30%);
+}
+
+.cards__SocialMarketing__MarketingImagen {
+  height: 50px;
+  margin-bottom: 1rem;
+
+}
+
+.cards__Cards2_1 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+
+}
+
+.cards__Cards2_2 {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.4;
+
+}
+.container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .heading-section h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            line-height: 1.2;
+            margin: 0;
+            color: #000;
+        }
+        .heading-section h1 .blue-text {
+            color: #1a5299; /* Azul similar al de la imagen */
+        }
+        .content-section {
+            margin-top: 20px;
+        }
+        .content-section p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+        }
+        .content-section .bold-text {
+            font-weight: bold;
+        }
