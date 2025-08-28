@@ -220,3 +220,108 @@ body{
   line-height: 1.4;
 
 }
+
+/*2.0*/
+
+.header__About {
+    display: flex;
+    align-items: center;
+    transform: translateX(110px) translateY(110px);
+    gap: 3rem;
+    padding: 6rem 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__About__Content {
+    flex: 1;
+}
+
+.header__About__Content__Subtitle {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    transform: translateX(-110px) translateY(36px);
+    color: #888;
+}
+
+.header__About__Content__Title {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+}
+
+.header__About__Content__Title__Blue__Text {
+    color: #1a5299;
+}
+
+.header__About__Content__Description {
+    margin-top: 1.5rem;
+    color: #555;
+}
+
+.header__About__Content__Description__Bold__Text {
+    font-weight: bold;
+    color: blue;
+}
+
+.header__About__Content__Points {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.header__About__Content__Points ul {
+    list-style: none;
+    font-size: small;
+}
+
+.header__About__Content__Group {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.header__About__Content__Group__Button__Filled, .header__About__Content__Group__Button__Outline {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.header__About__Content__Group__Button__Filled {
+    background-color: #053068;
+    color: #fff;
+    border: 1px solid #053068;
+}
+
+.header__About__Content__Group__Button__Filled:hover {
+    background-color: white;
+    color: #053068;
+}
+
+.header__About__Content__Group__Button__Outline {
+    background-color: transparent;
+    color: #053068;
+    border: 1px solid #053068;
+}
+
+.header__About__Content__Group__Button__Outline:hover {
+    background-color: #053068;
+    color: #fff;
+}
+
+.header__About__Content__Group__About__Image__S {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header__About__Content__Group__About__Image {
+
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
